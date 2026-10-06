@@ -573,7 +573,7 @@ button { cursor: pointer; }
    the demo form on a navy panel that runs to the right edge of the page. */
 .panelHero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(420px, 42%); min-height: calc(100svh - 74px); background: #f7fbff; }
 .panelHeroStory { display: grid; align-content: center; gap: 22px; min-width: 0; padding: 44px clamp(24px, 4vw, 64px) 44px max(20px, calc((100vw - 1380px) / 2)); }
-.panelHeroStory .eyebrow { gap: 10px; }
+.panelHeroEyebrowHidden { visibility: hidden; }
 .panelHero h1 { margin: 0; color: #050b23; font-size: clamp(40px, 4.2vw, 62px); font-weight: 800; line-height: 1.02; letter-spacing: -.045em; }
 .panelHeroLead { max-width: 34em; margin: 0; color: #0b152b; font-size: clamp(17px, 1.35vw, 19px); font-weight: 500; line-height: 1.5; letter-spacing: -.01em; }
 .panelHeroSupport { max-width: 36em; margin: 0; color: var(--sp-muted); font-size: 15px; line-height: 1.75; }

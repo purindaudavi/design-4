@@ -203,7 +203,8 @@ export default function ChannelManagerLandingPage() {
 
       <section className="panelHero" id="top">
         <div className="panelHeroStory">
-          <span className="eyebrow"><Layers3 aria-hidden="true" />Channel management</span>
+          {/* Label removed but its space kept, so the heading and art below stay where they were. */}
+          <span className="eyebrow panelHeroEyebrowHidden" aria-hidden="true"><Layers3 />Channel management</span>
           <h1>Destination Management System</h1>
           <p className="panelHeroLead">Keep channel operations connected to your hotel&apos;s rooms, rates and reservation workflow.</p>
           <p className="panelHeroSupport">Map distribution settings, review inventory activity and bring channel reservations into the same workspace your team uses every day.</p>
